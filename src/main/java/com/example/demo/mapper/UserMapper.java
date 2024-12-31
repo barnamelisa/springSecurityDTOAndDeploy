@@ -39,7 +39,6 @@ public class UserMapper {
                 .emailAddress(userDto.emailAddress())
                 .build();
     }
-
     public List<User> userListDtoToEntity(List<UserDto> userDtos, String password){
         return userDtos.stream()
                 .map(userDto -> userDtoToEntity(userDto, password))

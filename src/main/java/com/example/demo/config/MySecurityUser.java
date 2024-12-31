@@ -30,7 +30,6 @@ public class MySecurityUser extends User {
         this.emailaddress = emailAddress;
         this.birthdate = birthdate;
     }
-
     @Override
     public String toString() {
         return "MySecurityUser firstName=" + firstName + ", lastName=" + lastName + ", name=" + fullname + ", emailaddress=" + emailaddress + ", birthdate=" + birthdate

@@ -29,6 +29,7 @@ public class MyUserDetailsService implements UserDetailsService {
             throw new UsernameNotFoundException("Invalid credentials!");
         }
 
+
         User user = userByUsername.get();
 
         if (!user.getUsername().equals(username)) {
