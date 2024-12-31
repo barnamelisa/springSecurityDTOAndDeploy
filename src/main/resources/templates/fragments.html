@@ -7,6 +7,7 @@
     <title th:text="${title}">Title</title>
 </head>
 
+
 <div class="header" th:fragment="header">
 <p><a href="/login"><span sec:authorize="!isAuthenticated()">Login</span></a>
     <a href="/register"><span sec:authorize="!isAuthenticated()">Register</span></a>

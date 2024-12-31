@@ -61,4 +61,5 @@ public class User {
     private String emailAddress;
 
     private LocalDate birthdate;
+
 }

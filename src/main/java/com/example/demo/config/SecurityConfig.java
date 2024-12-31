@@ -19,6 +19,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @EnableWebSecurity // activeaza configurarea Spring Security pentru app, permitand sa controleze autentificarea, autorizarea si accesul la path-uri
 public class SecurityConfig {
 
+
     @Bean // marcheaza o metoda care creeaza un bean (un obiect gestionat de Spring) + permite injectarea obiectului in alte clase
     // configureaza securitatea HTTP, adica ce rute sunt accesibile si cum se face autentificarea
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{

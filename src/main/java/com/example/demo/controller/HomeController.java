@@ -44,7 +44,6 @@ public class HomeController {
 
         return "login";
     }
-
     @GetMapping("/register")
     public String register(@RequestParam(value="registrationSuccess", required = false) String success, Model model){
         model.addAttribute("title", "Register");

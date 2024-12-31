@@ -16,6 +16,7 @@ public class RoleController {
 
     private final RoleService roleService;
 
+
     @GetMapping("/roles")
     public String getRoles(Model model){
         List<RoleDto> roles = roleService.getAllRoles();

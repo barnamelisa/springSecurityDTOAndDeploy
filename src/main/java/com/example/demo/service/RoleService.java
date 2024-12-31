@@ -17,6 +17,7 @@ public class RoleService {
 
     private final RoleMapper roleMapper;
 
+
     public RoleDto getRoleById(Integer id){
         return roleMapper.roleEntityToDto(roleRepository.findById(id).orElse(null));
     }

@@ -15,7 +15,6 @@ import java.util.List;
 public class UserController {
 
     private final UserService userService;
-
     @GetMapping("/users")
     public String getUsers(Model model){
         List<UserDto> userDtos = userService.getAllUsers();

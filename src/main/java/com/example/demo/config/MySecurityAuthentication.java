@@ -27,6 +27,7 @@ public class MySecurityAuthentication implements Authentication {
         return new MySecurityAuthentication(Collections.emptyList(), name, null, password);
     }
 
+
     public static MySecurityAuthentication authenticated(MySecurityUser myUser) {
         return new MySecurityAuthentication(myUser.getAuthorities(), myUser.getUsername(), myUser, null);
     }

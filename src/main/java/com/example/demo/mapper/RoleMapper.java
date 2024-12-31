@@ -14,7 +14,6 @@ public class RoleMapper {
                 .role(role.getRole())
                 .build();
     }
-
     public List<RoleDto> roleListEntityToDto(List<Role> roles){
         return roles.stream() // converteste lista de entitati Role intr-un flux (stream), care permite procesarea elementelor din lista intr-un mod functional
                 .map(role -> roleEntityToDto(role)) // pt fiecare obiect role din lista de entitati se apeleaza metoda roleEntityToDto(role)

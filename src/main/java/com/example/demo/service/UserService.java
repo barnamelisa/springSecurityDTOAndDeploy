@@ -15,6 +15,7 @@ public interface UserService {
 
     UserDto getUserById(Integer id);
 
+
     List<UserDto> getAllUsers();
 
     UserDto createUser(User user);

@@ -43,7 +43,6 @@ public class UserServiceImpl implements UserService{
                 .build();
         return this.createUser(user);
     }
-
     @Override
     public UserDto getLoginUser() {
         return userMapper.userEntityToDto(userRepository.findLoginUser().orElse(null));
