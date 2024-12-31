@@ -1,0 +1,5 @@
+{
+  "phases": {
+    "setup": "jdk21, gradle"
+  }
+}
