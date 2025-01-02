@@ -1,11 +1,11 @@
 package com.example.demo.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @Data // combinatie de mai multe adnotari Lombok care genereaza automat: @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor(genereaza constructor pt toate campurile final si non-null)
 @NoArgsConstructor // genereaza un constructor fara argumente
