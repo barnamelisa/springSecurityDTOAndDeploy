@@ -1,12 +1,12 @@
 package com.example.demo.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
+import org.antlr.v4.runtime.misc.NotNull;
 import org.hibernate.annotations.NaturalId;
 
 import java.time.LocalDate;
-import java.util.List;
+import java.util.*;
 
 @Data
 @NoArgsConstructor
