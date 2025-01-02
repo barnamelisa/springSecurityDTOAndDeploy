@@ -27,7 +27,6 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
 	implementation 'mysql:mysql-connector-java:8.0.33'
@@ -44,12 +43,10 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
-	implementation 'org.springframework.security:spring-security-core:6.0.0'
+	//implementation 'org.springframework.security:spring-security-core:6.3.5'
 
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.security:spring-security-data:6.0.0'
-
-
 }
 
 tasks.named('test') {
