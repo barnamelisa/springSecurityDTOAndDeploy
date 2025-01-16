@@ -39,7 +39,7 @@ public class UserServiceImpl implements UserService{
                 .lastName(registrationRequest.getLastName())
                 .password(registrationRequest.getPassword())
                 .emailAddress(registrationRequest.getEmailAddress())
-                .role((roleRepository.findByRole("USER")))
+                .role((roleRepository.findByRole("USER"))) // setez rolul implicit user
                 .build();
         return this.createUser(user);
     }
