@@ -34,7 +34,7 @@ public class HomeController {
     public String login(Model model){
         model.addAttribute("title", "Login");
 
-        return "login";
+        return "security/login";
     }
 
     @GetMapping("/login-error")
@@ -50,7 +50,7 @@ public class HomeController {
         model.addAttribute("registrationSuccess", success);
         model.addAttribute("user", new RegistrationRequest());
 
-        return "register";
+        return "security/register";
     }
 
     @PostMapping("/createUser")

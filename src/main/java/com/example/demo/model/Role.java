@@ -15,7 +15,6 @@ import org.antlr.v4.runtime.misc.NotNull;
 @Table(name = "ROLES") // acesta va fi numele tabelei asociat cu entitatea
 public class Role {
 
-
     @Id // marcheaza campul id ca fiind cheie primara
     @GeneratedValue // valoarea va fi generata automat
     private Integer id;
